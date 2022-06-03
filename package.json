@@ -8,6 +8,11 @@
   },
   "private": true,
   "license": "MIT",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "jest": {
     "roots": [
       "<rootDir>/src"
