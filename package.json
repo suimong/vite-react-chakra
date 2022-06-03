@@ -8,6 +8,11 @@
   },
   "private": true,
   "license": "MIT",
+  "config": {
+    "commitzen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
