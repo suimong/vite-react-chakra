@@ -7862,7 +7862,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.59.0, rollup@npm:^2.68.0":
+"rollup@npm:^2.59.0":
   version: 2.75.5
   resolution: "rollup@npm:2.75.5"
   dependencies:
@@ -7873,6 +7873,20 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: fa3e61959efbc88cda75315dc22f035489be9dda3ae7d45a3a474f19efc3661ef6f9849486c7ca51e1a3e2aedef91f4e3223e8123bbeaf155913533d071994d1
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^3.14.0":
+  version: 3.14.0
+  resolution: "rollup@npm:3.14.0"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: 48f4da224753b8022529256243b74b3f6f41d9b4358ba079ac42f2a2cf07e4bd01b5d94579338194238e3c575487974ca508e144cf6195123293e7fdf82506cb
   languageName: node
   linkType: hard
 
@@ -8892,7 +8906,7 @@ __metadata:
     react: ^18.0.10
     react-dom: ^18.0.10
     react-router-dom: ^6.3.0
-    rollup: ^2.68.0
+    rollup: ^3.14.0
     ts-jest: ^27.1.3
     typescript: ^4
     vite: ^2
